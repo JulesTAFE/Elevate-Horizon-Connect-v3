@@ -1,9 +1,5 @@
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
 
 export default function HomeScreen() {
-  return (
-    <View>
-      <Text>Welcome to my Home Screen!</Text>
-    </View>
-  );
+  return <Text>Home</Text>;
 }
